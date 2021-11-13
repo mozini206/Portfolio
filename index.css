@@ -41,15 +41,7 @@
     
 }
 
-.row-1{
-    position: relative;
-    top: 0;
-    left: 0;
-    
-    margin-left: 100px;
-    width: 100%;
-    
-}
+
 
 .main-body{
     display: flex;
@@ -92,37 +84,101 @@ nav a {
     background: blue;
   }
 
+  
+
 
 .work{
     display: flex;
     margin: 15px;
+    flex-direction: row;
+    flex:wrap;
+
+    
     
     
 }
+
+.container-1{
+    margin-left: 50px;
+}
+
+
 
 #food{
     position: relative;
     width: 100%;
 }
 
-
-.container-1{
-    padding: 10px;
-    margin-left: 50px;
+.row-1{
+    margin-left: 1rem;
+    position: relative;
+    
     
 }
 
+#row-1-content { 
+    position: absolute; 
+    bottom: 50px; 
+    left: 40px; 
+    width: 100%; 
+    color: white;
+    
+ }
+
 .row-2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 10px;
+    position: relative;
+
+
+}
+
+#row-21-content { 
+    position: absolute; 
+    bottom: 50px; 
+    left: 50px; 
+    width: 100%; 
+    color:white;
+ }
+
+ #row-22-content { 
+    position: absolute; 
+    bottom: 50px; 
+    left:880px; 
+    width: 100%; 
+    color:white;
+ }
+
+
+
+.row-3{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+ 
    
 }
 
-.row-3{
-    display: flex;
-    justify-content: space-between;
-   
-}
+#row-31-content { 
+    position: absolute; 
+    bottom: 90px; 
+    left: 70px; 
+    width: 100%; 
+    color:black;
+ }
+
+
+
+ #row-32-content{
+     position:absolute;
+     bottom: 90px;
+     right: 650px;
+     color:white;
+ }
+
+
 
 
 
