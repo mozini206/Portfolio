@@ -41,6 +41,16 @@
     
 }
 
+.row-1{
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    margin-left: 100px;
+    width: 100%;
+    
+}
+
 .main-body{
     display: flex;
     padding: 10px;
@@ -90,11 +100,29 @@ nav a {
     
 }
 
+#food{
+    position: relative;
+    width: 100%;
+}
 
 
+.container-1{
+    padding: 10px;
+    margin-left: 50px;
+    
+}
 
+.row-2{
+    display: flex;
+    justify-content: space-between;
+   
+}
 
-  
+.row-3{
+    display: flex;
+    justify-content: space-between;
+   
+}
 
 
 
