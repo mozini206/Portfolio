@@ -1,1 +1,123 @@
+.body{
+    height: 90%;
+}
+.container {
+    border: 5px solid;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    background-color: rgb(188, 210, 235);
+    padding: 30px;
+    font-size: 1.3em;
+    justify-content: space-between;
+    
+    
+}
 
+.container > div{
+    color:black;
+    position: relative;
+
+}
+
+#Avatar {
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+}
+
+#banner{
+    width: 100%;
+    
+    
+}
+
+.parent{
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 5px solid;
+    
+}
+
+.main-body{
+    display: flex;
+    padding: 10px;
+    
+}
+
+.main-body > div {
+    margin: 10px;
+}
+
+p{
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+
+
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:blue
+  }
+  
+  nav a:hover:not(.active) {
+    background-color: red;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+
+  .divider {
+    width: 2px;
+    margin: 6px 0;
+    background: blue;
+  }
+
+
+.work{
+    display: flex;
+    margin: 15px;
+    
+    
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    .container {
+      flex-direction: column;
+    }
+    /* Make the sidebar stack below the body */
+    aside {
+      order: 2;
+    }
+    
+    
+  }
