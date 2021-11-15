@@ -1,5 +1,6 @@
 .body{
     height: 90%;
+    
 }
 .container {
     border: 5px solid;
@@ -46,6 +47,7 @@
 .main-body{
     display: flex;
     padding: 10px;
+    
     
 }
 
@@ -177,6 +179,18 @@ nav a {
      right: 650px;
      color:white;
  }
+
+.contact-container > h1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-container > div{
+    display: flex;
+    justify-content: space-around;
+}
+
+
 
 
 
